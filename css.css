@@ -1,8 +1,12 @@
-h2 { 
+h1, h2 {
   font-family: Verdana;
 }
 
 .nav-icon {
   height: 30px;
   width: 30px;
+}
+.nav-icon-seasons {
+  height: 60px;
+  width: 60px;
 }
