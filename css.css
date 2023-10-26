@@ -117,6 +117,10 @@ body {
   margin-bottom: .2em;
 }
 
+#activities a, #findUs a, #woodlandMap a, #about a {
+  display: inline !important;
+}
+
 .welcomePara {
   font-size: .8em;
 }
@@ -183,4 +187,8 @@ body {
 #downloadActivityICS {
   font-size: 1.4em;
   background-color: lightgreen;
+}
+
+#homepageFbContainer a {
+  display: block;
 }
