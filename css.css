@@ -1,3 +1,12 @@
+#navbar {
+  position: sticky;
+  top: 0;
+  background: #eac686;
+  text-align: right;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
 h1, h2 {
   font-family: Verdana;
 }
@@ -6,27 +15,40 @@ h1, h2 {
   height: 30px;
   width: 30px;
 }
+
 .nav-icon-seasons {
-  height: 75px;
-  width: 75px;
+  height: 80px;
+  width: 80px;
   margin: 0px;
   border: 1px dashed red;
 }
 
 .spring-div {
   background-color: #d4ea86;
+  border-radius: 5px;
 }
 
 .summer-div {
   background-color: #eac286;
+  border-radius: 5px;
 }
 
 .autumn-div {
   background-color: #cc9a85;
+  border-radius: 5px;
 }
 
 .winter-div {
   background-color: #aadad6;
+  border-radius: 5px;
+}
+
+.activity-title {
+  margin: 0px;
+}
+
+.activity-description {
+  margin: 0px;
 }
 
 .article-logo {
@@ -56,13 +78,6 @@ h1, h2 {
 
 #hbm {
   text-align: left;
-}
-
-#navbar {
-  position: sticky;
-  top: 0;
-  background: #eac686;
-  text-align: right;
 }
 
 .seasonalTitle {
