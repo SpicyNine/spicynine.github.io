@@ -13,8 +13,20 @@ h1, h2 {
   border: 1px solid red;
 }
 
-#sss {
+.spring-div {
+  background-color: #d4ea86;
+}
 
+.summer-div {
+  background-color: #eac286;
+}
+
+.autumn-div {
+  background-color: #cc9a85;
+}
+
+.winter-div {
+  background-color: #8ec0ae;
 }
 
 #fbContainer {
@@ -27,16 +39,26 @@ h1, h2 {
 .seasonIconNB {
   text-align: center;
   border: 1px solid blue;
+  font-family: Verdana;
+}
+
+#showAllSeasonal {
+  margin: 8px;
 }
 
 .seasonIconNB p {
   margin: .2em;
 }
 
+#hbm {
+  text-align: left;
+}
+
 #navbar {
   position: sticky;
   top: 0;
   background: #eac686;
+  text-align: right;
 }
 
 .seasonalTitle {
