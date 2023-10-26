@@ -51,6 +51,11 @@ body {
   font-size: 1.2em;
 }
 
+.activity-desc-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .activity-description {
   margin: 0px;
   font-size: 1em;
@@ -58,8 +63,8 @@ body {
 }
 
 .article-logo {
-  height: 15px;
-  width: 15px;
+  height: 100px;
+  width: 100px;
 }
 
 #homepageFbContainer {
@@ -70,6 +75,10 @@ body {
 
 #homepageFbContainer h2 {
   margin-bottom: 0px;
+}
+
+#activities h3 {
+  margin-bottom: .2em;
 }
 
 .welcomePara {
