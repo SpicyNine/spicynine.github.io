@@ -50,8 +50,13 @@ body {
   text-align: center;
 }
 
-#backToActivities {
-  /*font-weight: bold;*/
+.backToActivities {
+  text-align: center;
+}
+
+#showAllSeasonalBtnContainer {
+  display: flex;
+  justify-content: center;
 }
 
 #activity-title {
@@ -151,6 +156,7 @@ body {
 
 #showAllSeasonal {
   margin: 8px;
+  background-color: #eac686;
 }
 
 .seasonIconNB p {
@@ -170,10 +176,9 @@ h1#nbh {
   padding: 0px;
 }
 
-/*body {*/
-/*  margin: 0px;*/
-/*  padding: 0px;*/
-/*}*/
+body {
+  background-color: #fffcf2;
+}
 
 #downloadActivityICS {
   font-size: 1.4em;
