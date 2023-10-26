@@ -46,9 +46,40 @@ body {
   border-radius: 5px;
 }
 
+#activity-container {
+  text-align: center;
+}
+
+#backToActivities {
+  /*font-weight: bold;*/
+}
+
+#activity-title {
+  margin-bottom: .4em;
+}
+
+#activity-description {
+  text-align: left;
+}
+
+#activity-bullet-list {
+  text-align: left;
+}
+
 .activity-title {
   margin: 0px;
   font-size: 1.2em;
+}
+
+.abp-img {
+  display: block;
+  height: 175px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.abp-img-container {
+  margin: auto;
 }
 
 .activity-desc-container {
@@ -143,3 +174,8 @@ h1#nbh {
 /*  margin: 0px;*/
 /*  padding: 0px;*/
 /*}*/
+
+#downloadActivityICS {
+  font-size: 1.4em;
+  background-color: lightgreen;
+}
