@@ -68,13 +68,32 @@ body {
   margin-top: .8em;
 }
 
-#welcomePara {
+#homepageFbContainer h2 {
+  margin-bottom: 0px;
+}
+
+.welcomePara {
   font-size: .8em;
 }
 
+.hpPanelDesc {
+  font-size: .8em;
+  margin-top: .2em;
+}
+
+.signature {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.signature-last {
+  margin-top: 0px;
+}
+
 .hpPanel {
-  border: 1px solid green;
+  border: 1px dashed green;
   text-align: center;
+  margin: 1px;
 }
 
 #fbContainer {
