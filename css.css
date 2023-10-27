@@ -46,7 +46,7 @@ body {
   border-radius: 5px;
 }
 
-#activity-container {
+#activity-container, #footer-homepage-link {
   text-align: center;
 }
 
@@ -119,6 +119,11 @@ body {
 
 #activities a, #findUs a, #woodlandMap a, #about a {
   display: inline !important;
+}
+
+#titleHomepage {
+  text-decoration: none;
+  color: black;
 }
 
 .welcomePara {
