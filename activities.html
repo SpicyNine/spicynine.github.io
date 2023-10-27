@@ -7,7 +7,7 @@
     <script src="./js.js"></script>
   </head>
   <style>
-    .filterDiv {
+    .filterSn {
       display: none;
     }
 
@@ -63,7 +63,7 @@
 <!--  <button id="showAllSeasonal" onclick="filterActivities('all')">Show All Seasonal Activities &#8628;</button>-->
 <!--</div>-->
 <div id="activities">
-  <div id="activities-spring" class="activities-container spring filterSeason">
+  <div id="activities-spring" class="activities-container spring filterSn">
     <h3>Spring</h3>
     <p class="activity-title">&#10047; <a href="./ap-easter-egg-hunt.html">Easter Egg Hunt</a></p>
     <p class="activity-description">What treasures await? Join us for an Easter egg hunt of epic proportions in the beautiful wilderness of &lt;area&gt;.</p>
@@ -74,7 +74,7 @@
     <p class="activity-title">&#10047; <a href="">Wildlife watching</a></p>
     <p class="activity-description">We've spotted x & y at KV Woods, what will you see?</p>
   </div>
-  <div id="activities-summer" class="activities-container summer filterSeason">
+  <div id="activities-summer" class="activities-container summer filterSn">
     <h3>Summer</h3>
     <p class="activity-title">&#10047; <a href="">KV Day</a></p>
     <p class="activity-description">BBQs, hammocks, and mud - what more could you ask for? Let's all come together for one day (and night, if you're up for it!)</p>
@@ -87,7 +87,7 @@
     <p class="activity-title">&#10047; <a href="">Habitat creation</a></p>
     <p class="activity-description">Bird boxes, bug hotels, and bee sanctuaries. Let's give those little critters a lovely place to set up their own camp.</p>
   </div>
-  <div id="activities-autumn" class="activities-container autumn filterSeason">
+  <div id="activities-autumn" class="activities-container autumn filterSn">
     <h3>Autumn</h3>
     <p class="activity-title">&#10047; <a href="">Tree planting</a></p>
     <p class="activity-description">Getting the next generation of trees ready.</p>
@@ -99,7 +99,7 @@
     <p class="activity-description">You might spot a x or y.</p>
 
   </div>
-  <div id="activities-winter" class="activities-container winter filterSeason">
+  <div id="activities-winter" class="activities-container winter filterSn">
     <h3>Winter</h3>
     <p class="activity-title">&#10047; <a href="">Upkeep & Maintenance</a></p>
     <p class="activity-description">Securing perimeters, ensuring the woodland is safe for the active seasons ahead.</p>
@@ -118,7 +118,7 @@
   filterActivities("all")
   function filterActivities(c) {
     let a;
-    a = document.getElementsByClassName("filterSeason");
+    a = document.getElementsByClassName("filterSn");
     if (c === "all") c = "";
     for (let i = 0; i < a.length; i++) {
       faRemoveClass(a[i], "show");
@@ -148,9 +148,9 @@
   }
 
   let snContainer = document.getElementById("fbOverallContainer");
-  let snIcons = snContainer.getElementsByClassName("btn");
-  for (let i = 0; i < snIcons.length; i++) {
-    snIcons[i].addEventListener("click", function(){
+  let snSn = snContainer.getElementsByClassName("btn");
+  for (let i = 0; i < snSn.length; i++) {
+    snSn[i].addEventListener("click", function(){
       let active = document.getElementsByClassName("active");
       active[0].className = active[0].className.replace(" active", "");
       this.className += " active";
