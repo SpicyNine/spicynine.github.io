@@ -13,30 +13,35 @@
   <h1 id="nbh"><a id="titleHomepage" href="./index.html">KV WOODS</a> <img class="nav-icon" src="./woodland.svg" style="margin-right: 5px;"></h1>
 <!--  <h1 id="nbh"><img id="hmb" class="nav-icon" src="./hbm.svg"> KV WOODS <img class="nav-icon" src="./logo-ph.svg"></h1>-->
 </div>
-
+<div class="homepage-link">
+  <p><a href="./index.html">&#10554; Back to Home</a></p>
+</div>
+<h2 id="activity-title">Things to do @ KV Woods</h2>
+<!--<p id="allSeasons">During all four seasons...</p>-->
 <div id="fbContainer">
-  <div class="seasonIconNB spring-div">
+  <div class="seasonIconNB spring-div" onclick="tglSeasonBtn('spring')">
     <img class="nav-icon-seasons spring-icon" src="./spring.svg">
-    <p>Spring</p>
+    <p id="spring-title">Spring</p>
   </div>
-  <div class="seasonIconNB summer-div">
+  <div class="seasonIconNB summer-div" onclick="tglSeasonBtn('summer')">
     <img class="nav-icon-seasons summer-icon" src="./summer.svg">
-    <p>Summer</p>
+    <p id="summer-title">Summer</p>
   </div>
-  <div class="seasonIconNB autumn-div">
+  <div class="seasonIconNB autumn-div" onclick="tglSeasonBtn('autumn')">
     <img class="nav-icon-seasons autumn-icon" src="./autumn.svg">
-    <p>Autumn</p>
+    <p id="autumn-title">Autumn</p>
   </div>
-  <div class="seasonIconNB winter-div">
+  <div class="seasonIconNB winter-div" onclick="tglSeasonBtn('winter')">
     <img class="nav-icon-seasons winter-icon" src="./winter.svg">
-    <p>Winter</p>
+    <p id="winter-title">Winter</p>
   </div>
 </div>
+<p id="filterDownSeasons">Click on a season to filter down suggested activities</p>
 <div id="showAllSeasonalBtnContainer">
   <button id="showAllSeasonal">Show All Seasonal Activities &#8628;</button>
 </div>
 <div id="activities">
-  <div>
+  <div id="activities-spring">
     <h3>Spring</h3>
     <p class="activity-title">&#10047; <a href="./abp.html">Easter Egg Hunt</a></p>
     <p class="activity-description">What treasures await? Join us for an Easter egg hunt of epic proportions in the beautiful wilderness of &lt;area&gt;.</p>
@@ -56,7 +61,7 @@
     <p class="activity-title">&#10047; <a href="">Spot wildlife watching</a></p>
     <p class="activity-description">We've spotted x & y at KV Woods, what will you see?</p>
   </div>
-  <div>
+  <div id="activities-summer">
     <h3>Summer</h3>
     <p class="activity-title">&#10047; <a href="">KV Day</a></p>
     <p class="activity-description">BBQs, hammocks, and mud - what more could you ask for? Let's all come together for one day (and night, if you're up for it!)</p>
@@ -69,7 +74,7 @@
     <p class="activity-title">&#10047; <a href="">Habitat creation</a></p>
     <p class="activity-description">Bird boxes, bug hotels, and bee sanctuaries. Let's give those little critters a lovely place to set up their own camp.</p>
   </div>
-  <div>
+  <div id="activities-autumn">
     <h3>Autumn</h3>
     <p class="activity-title">&#10047; <a href="">Tree planting</a></p>
     <p class="activity-description">Getting the next generation of trees ready.</p>
@@ -81,7 +86,7 @@
     <p class="activity-description">You might spot a x or y.</p>
 
   </div>
-  <div>
+  <div id="activities-winter">
     <h3>Winter</h3>
     <p class="activity-title">&#10047; <a href="">Upkeep & Maintenance</a></p>
     <p class="activity-description">Securing perimeters, ensuring the woodland is safe for the active seasons ahead.</p>
@@ -93,7 +98,7 @@
     <p class="activity-description">Coppicing the new trees.</p>
   </div>
 </div>
-<div id="footer-homepage-link">
+<div class="homepage-link">
   <p><a href="./index.html">&#10554; Back to Home</a></p>
 </div>
 </body>

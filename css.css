@@ -46,8 +46,23 @@ body {
   border-radius: 5px;
 }
 
-#activity-container, #footer-homepage-link {
+#activity-container, .homepage-link {
   text-align: center;
+}
+
+#findus-info, #wm-info {
+  text-align: left;
+}
+
+/*#allSeasons {*/
+/*  text-align: center;*/
+/*  font-size: .6em;*/
+/*}*/
+
+#filterDownSeasons {
+  text-align: center;
+  font-size: .8em;
+  margin-bottom: 0px;
 }
 
 .backToActivities {
@@ -57,6 +72,7 @@ body {
 #showAllSeasonalBtnContainer {
   display: flex;
   justify-content: center;
+  margin-bottom: 0px;
 }
 
 #activity-title {
@@ -79,6 +95,13 @@ body {
 .abp-img {
   display: block;
   height: 175px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.abp-img-smaller {
+  display: block;
+  height: 100px;
   margin-left: auto;
   margin-right: auto;
 }
