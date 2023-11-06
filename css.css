@@ -240,3 +240,12 @@ body {
 #homepageFbContainer a {
   display: block;
 }
+
+#dedicatedTo {
+  font-size: 0.9em;
+}
+
+#wip {
+  color: red;
+  font-weight: bold;
+}
